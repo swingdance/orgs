@@ -1,6 +1,6 @@
 {
   "id": "_template",
-  "name": "",
+  "name": "Template",
   "name_local": "",
   "since": "",
   "city": "",
@@ -15,5 +15,6 @@
   "yt": "",
   "wo": "",
   "bl": "",
-  "rb": ""
+  "rb": "",
+  "notes": ""
 }
