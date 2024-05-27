@@ -1,0 +1,175 @@
+name: ⭐️ Add Org
+description: Add a new organization or community to the list.
+title: 'Add Org: <Name>'
+labels: ["add org"]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Before getting started, make sure you have checked the list and that the org does not exist.
+        If you want to update an existing org, use "Update Org".
+
+        Only **Region**, **ID**, **Name**, **City**, **Province** fields are required.
+        All other fields are optional, but would be better if you provide them.
+
+  - type: dropdown
+    id: region
+    attributes:
+      label: Region
+      description: |
+        The i18n locale identifier used to group your organization/community.
+        Please choose the appropriate one according to your country or region.
+        If you cannot find the corresponding one, use "Add Region" or email directly to dev+swing@kjuly.com.
+      multiple: false
+      options:
+        - ko_KR (South Korean)
+        - th_TH (Thailand)
+        - zh_CN (China)
+        - zh_HK (Hong Kong)
+        - zh_TW (Taiwan)
+    validations:
+      required: true
+
+  - type: input
+    id: id
+    attributes:
+      label: Organization ID
+      description: |
+        For example, if the English name of your org is Cat's Corner Studio,
+        use cat-s-corner-studio as the ID.
+      placeholder: e.g., x-studio
+    validations:
+      required: true
+
+  - type: input
+    id: name
+    attributes:
+      label: Name
+      placeholder: e.g., X Studio
+    validations:
+      required: true
+
+  - type: input
+    id: name_local
+    attributes:
+      label: Local Name
+      placeholder: e.g., 某某工作室
+
+  - type: input
+    id: since
+    attributes:
+      label: Year Established
+      placeholder: e.g., 2014
+
+  - type: input
+    id: city
+    attributes:
+      label: City
+      placeholder: e.g., Xiamen
+    validations:
+      required: true
+
+  - type: input
+    id: province
+    attributes:
+      label: Province or State
+      description: Use the same City value if none is available.
+      placeholder: e.g., Fujian
+    validations:
+      required: true
+
+  - type: textarea
+    id: venue
+    attributes:
+      label: Venue
+      description: The address of the studio or ballroom.
+      placeholder: |
+        e.g. 
+        B203, Zhuzong Building, No.25, East Third Ring Road, Beijing.
+        北京市东三环中路25号住总大厦 B203。
+
+  - type: textarea
+    id: party
+    attributes:
+      label: Party
+      description: Weekly or monthly party details.
+      placeholder: |
+        e.g.
+        Newcomer's swing dance party, every Wednesday, 21:30 - 23:30
+        每周三新人舞会，21:30 - 23:30
+        Zero-based open classes & swing dance party, every Saturday, 20:00 - 21:00
+        每周六零基础公开课+摇摆舞会，20:00 - 21:00
+
+  - type: checkboxes
+    id: styles
+    attributes:
+      label: What dance styles are included?
+      description: You may select more than one.
+      options:
+        - label: Lindy Hop
+        - label: Balboa
+        - label: Blues
+
+  - type: input
+    id: email
+    attributes:
+      label: Email
+      placeholder: e.g., abc@eample.com
+
+  - type: input
+    id: website
+    attributes:
+      label: Website or Homepage
+      placeholder: e.g., https://example.com
+
+  - type: markdown
+    attributes:
+      value: |
+        Here are some optional fields for social network accounts that may be
+        helpful in letting others know more about your organization/community.
+        
+        Please add the **User ID Only**, not the full URL link.
+        For example, if the full URL is https://www.instagram.com/abc, add abc.
+  
+  - type: input
+    id: fb
+    attributes:
+      label: Facebook
+      placeholder: e.g., abc
+
+  - type: input
+    id: ig
+    attributes:
+      label: Instagram
+      placeholder: e.g., abc
+
+  - type: input
+    id: yt
+    attributes:
+      label: YouTube
+      placeholder: e.g., abc
+
+  - type: input
+    id: wo
+    attributes:
+      label: WeChat Official Account
+      placeholder: e.g., abc
+
+  - type: input
+    id: bl
+    attributes:
+      label: Bilibili
+      placeholder: e.g., abc
+
+  - type: input
+    id: rb
+    attributes:
+      label: Xiaohongshu
+      placeholder: e.g., abc
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      placeholder: You can add any additional instructions or tips for dancers here if needed.
