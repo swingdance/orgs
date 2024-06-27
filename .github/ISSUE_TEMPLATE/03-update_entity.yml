@@ -89,8 +89,6 @@ body:
     attributes:
       label: City
       placeholder: e.g., Xiamen
-    validations:
-      required: true
 
   - type: input
     id: province
@@ -98,8 +96,6 @@ body:
       label: Province or State
       description: Use the same City value if none is available.
       placeholder: e.g., Fujian
-    validations:
-      required: true
 
   - type: textarea
     id: venue
