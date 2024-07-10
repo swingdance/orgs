@@ -1,6 +1,6 @@
 name: 💫 Update Org
 description: Update an existing organization or community.
-title: 'Update Org: <Region> • <Name>'
+title: 'Update Org: <Name>'
 labels: ["update org"]
 
 body:
@@ -74,8 +74,21 @@ body:
     id: province
     attributes:
       label: Province or State
-      description: Use the same City value if none is available.
       placeholder: e.g., Fujian
+
+  - type: dropdown
+    id: styles
+    attributes:
+      label: Specific dance style
+      multiple: false
+      default: 0
+      options:
+        - SAME
+        - ANY
+        - Balboa
+        - Blues
+        - Boogie Woogie
+        - Shag
 
   - type: textarea
     id: venue
@@ -102,17 +115,6 @@ body:
         每周三新人舞会，21:30 - 23:30
         Zero-based open classes & swing dance party, every Saturday, 20:00 - 21:00
         每周六零基础公开课+摇摆舞会，20:00 - 21:00
-
-  - type: checkboxes
-    id: styles
-    attributes:
-      label: What dance styles are included?
-      description: You may select more than one.
-      options:
-        - label: UPDATE
-        - label: Lindy Hop
-        - label: Balboa
-        - label: Blues
 
   - type: input
     id: email
