@@ -1,6 +1,6 @@
 name: ⭐️ Add Org
 description: Add a new organization or community to the list.
-title: 'Add Org: <Name>'
+title: '<Org Name>'
 labels: ["add org"]
 
 body:

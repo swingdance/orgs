@@ -1,6 +1,6 @@
 name: 💫 Update Org
 description: Update an existing organization or community.
-title: 'Update Org: <Name>'
+title: '<Org Name>'
 labels: ["update org"]
 
 body:
