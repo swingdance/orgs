@@ -15,6 +15,14 @@ Since 2019
 
     上海市黄浦区斜土路768号604室 Tabby the Cat 工作室。  
 
+## Contact
+
+:fontawesome-solid-envelope: <17717614792@qq.com>  
+
+---
+
+ [:fontawesome-brands-facebook-f:{ .ky_social_links_icon }](https://www.facebook.com/tabbythecatsh){ target='_blank' } [:fontawesome-brands-instagram:{ .ky_social_links_icon }](https://instagram.com/tabbythecat_swingstudio){ target='_blank' } [:fontawesome-brands-bilibili:{ .ky_social_links_icon }](https://space.bilibili.com/493539749){ target='_blank' } [:fontawesome-brands-weixin:{ .ky_social_links_icon }](https://mp.weixin.qq.com/s/kt7fsjJcJOKRoF42p8Tz1A){ target='_blank' }
+
 ---
 
 <div class="ky_page_footer" markdown>
@@ -24,7 +32,7 @@ Since 2019
 [:material-file-edit-outline:][edit-info]{ target='_blank' }
 </div>
 <div class="ky_page_footer_leading" markdown="span">
-[:material-clock-edit-outline: 2024-07-23 12:29 UTC][view-edit-history]{ .ky_page_footer_history_button target='_blank' }
+[:material-clock-edit-outline: 2024-07-23T12:29:00 UTC][view-edit-history]{ .ky_page_footer_history_button target='_blank' }
 </div>
 </div>
 
