@@ -64,7 +64,7 @@ body:
   - type: dropdown
     id: styles
     attributes:
-      label: Specific dance style
+      label: Specific Dance Style
       multiple: false
       default: 0
       options:
@@ -73,6 +73,19 @@ body:
         - Blues
         - Boogie Woogie
         - Shag
+  
+  - type: input
+    id: party
+    attributes:
+      label: Weekly Party
+      description: |
+        D: 0 ~ 6 (Sunday to Saturday)
+        HH:MM: 00:00 ~ 23:59 (24:00 is also OK)
+        e.g.
+        `5-20:00`: Every Friday 20:00
+        `0-20:00~24:00`: Every Sunday 20:00 ~ 24:00
+        `3-20:00~23:00,6-20:00~24:00`: Every Wednesday 20:00 ~ 23:00, Every Saturday 20:00 ~ 24:00
+      placeholder: D-HH:MM
 
   - type: textarea
     id: venue
@@ -83,18 +96,6 @@ body:
         e.g. 
         B203, Zhuzong Building, No.25, East Third Ring Road, Beijing.
         北京市东三环中路25号住总大厦 B203。
-
-  - type: textarea
-    id: party
-    attributes:
-      label: Party
-      description: Weekly or monthly party details.
-      placeholder: |
-        e.g.
-        Newcomer's swing dance party, every Wednesday, 21:30 - 23:30
-        每周三新人舞会，21:30 - 23:30
-        Zero-based open classes & swing dance party, every Saturday, 20:00 - 21:00
-        每周六零基础公开课+摇摆舞会，20:00 - 21:00
 
   - type: input
     id: email
