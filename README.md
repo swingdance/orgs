@@ -1,5 +1,10 @@
 # orgs
 List of Swing Dance Organizations/Communities.
 
-Grouped by i18n locale identifier, which is combined with the language code and the region code.
+Grouped by the region code.
 
+## Contribution
+
+| en | zh-Hans |
+|:---|:---|
+| [Submit Org / Event](https://swing.kids/submit/) | [添加组织 / 活动](https://swing.kids/zh-Hans/submit/)
