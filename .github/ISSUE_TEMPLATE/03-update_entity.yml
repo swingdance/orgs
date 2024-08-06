@@ -89,6 +89,7 @@ body:
         - Blues
         - Boogie Woogie
         - Shag
+        - Solo Jazz
 
   - type: input
     id: party
