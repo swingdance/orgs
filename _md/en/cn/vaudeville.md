@@ -1,10 +1,10 @@
 ---
-title: Vaudeville
+title: Vaudeville Club & Art
 subtitle: 伍德维勒俱乐部
-description: "Info about the swing dance org: Vaudeville."
+description: "Info about the swing dance org: Vaudeville Club & Art."
 ---
 
-# Vaudeville
+# Vaudeville Club & Art
 
 :fontawesome-solid-user-group:{ .ky_list_leading_icon } 伍德维勒俱乐部  
 :fontawesome-solid-flag:{ .ky_list_leading_icon } Since 2024  
@@ -27,12 +27,12 @@ description: "Info about the swing dance org: Vaudeville."
 [:material-file-edit-outline:][edit-info]{ target='_blank' }
 </div>
 <div class="ky_page_footer_leading" markdown="span">
-[:material-clock-edit-outline: 2024-09-24 06:48 UTC][view-edit-history]{ .ky_page_footer_history_button target='_blank' }
+[:material-clock-edit-outline: 2024-09-24 06:50 UTC][view-edit-history]{ .ky_page_footer_history_button target='_blank' }
 </div>
 </div>
 
 [add-event-link]: https://github.com/swingdance/events/issues/new?assignees=&labels=add+event&projects=&template=02-add_entity.yml&title=%5Bcn%5D%20%3CName%3E&region=cn&province=Shandong&city=Qingdao&org_id=vaudeville "Add Event"
 [view-raw-source-file]: https://github.com/swingdance/orgs/blob/main/cn/vaudeville.json "View Raw Source File"
-[edit-info]: https://github.com/swingdance/orgs/issues/new?assignees=&labels=update+org&projects=&template=03-update_entity.yml&title=%5Bcn%5D%20Vaudeville&region=cn&id=vaudeville&name=Vaudeville "Edit Info"
+[edit-info]: https://github.com/swingdance/orgs/issues/new?assignees=&labels=update+org&projects=&template=03-update_entity.yml&title=%5Bcn%5D%20Vaudeville%20Club%20%26%20Art&region=cn&id=vaudeville&name=Vaudeville%20Club%20%26%20Art "Edit Info"
 
 [view-edit-history]: https://github.com/swingdance/orgs/commits/main/cn/vaudeville.json "View Edit History"
