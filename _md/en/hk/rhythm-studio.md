@@ -15,7 +15,7 @@ description: "Info about the swing dance org: Rhythm Studio."
 
 ---
 
- [:fontawesome-brands-facebook-f:{ .ky_social_links_icon }](https://www.facebook.com/RhythmStudioHK){ target='_blank' } [:fontawesome-brands-instagram:{ .ky_social_links_icon }](https://instagram.com/rhythmstudiohk){ target='_blank' }
+ [:fontawesome-brands-facebook-f:{ .ky_social_links_icon }](https://www.facebook.com/RhythmStudioHK){ target='_blank' } [:fontawesome-brands-instagram:{ .ky_social_links_icon }](https://instagram.com/rhythmstudiohk){ target='_blank' } [:fontawesome-brands-weixin:{ .ky_social_links_icon }](# "Rhythm Studio"){ target='_blank' }
 
 ---
 
@@ -26,7 +26,7 @@ description: "Info about the swing dance org: Rhythm Studio."
 [:material-file-edit-outline:][edit-info]{ target='_blank' }
 </div>
 <div class="ky_page_footer_leading" markdown="span">
-[:material-clock-edit-outline: 2024-06-30 10:35 UTC][view-edit-history]{ .ky_page_footer_history_button target='_blank' }
+[:material-clock-edit-outline: 2024-12-20 12:59 UTC][view-edit-history]{ .ky_page_footer_history_button target='_blank' }
 </div>
 </div>
 
